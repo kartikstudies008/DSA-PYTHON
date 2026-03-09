@@ -37,8 +37,9 @@ for num in arr:
 
 #FIND MAX ELEMENT 
 arr2 = [5,10,15,20]
-maximum = arr2[0]
-for num in arr2:
+maximum = arr2[0]       #INITIALIZE THE MAXIMUM VARIABLE TO THE FIRST ELEMENT OF THE ARRAY
+
+for num in arr2:          #ITERATE THROUGH THE ARRAY AND CHECK IF THE CURRENT NUMBER IS GREATER THAN THE MAXIMUM
      if num > maximum:
           maximum = num
 print("Maximum element:", maximum)

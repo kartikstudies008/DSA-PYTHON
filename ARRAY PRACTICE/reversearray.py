@@ -1,0 +1,15 @@
+#REVERSE ARRAY METHOD 3 , SWAP FIRST AND LAST ELEMENTS, THEN SECOND AND SECOND LAST ELEMENTS, AND SO ON UNTIL THE MIDDLE OF THE ARRAY IS REACHED. THIS METHOD MODIFIES THE ORIGINAL ARRAY IN PLACE WITHOUT USING ADDITIONAL SPACE FOR A NEW ARRAY.
+
+arr = [12,13,14,15]
+
+left = 0
+right = len(arr)-1
+
+while left < right:
+    arr[left],arr[right]=arr[right],arr[left]
+    left+=1
+    right-=1
+print(arr)
+
+
+

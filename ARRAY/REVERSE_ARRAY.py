@@ -14,10 +14,10 @@ left = 0
 right = len(arr3)-1
 
 while left < right:
-    arr3[left],arr3[right] = arr3[right],arr3[left]
-    left +=1
+    arr3[left],arr3[right] = arr3[right],arr3[left]   #SWAP THE ELEMENTS AT THE LEFT AND RIGHT INDICES
+    left +=1                                        #MOVE THE LEFT POINTER TO THE RIGHT
     right -=1
-    print(arr3)
+    print(arr3)               #PRINT THE ARRAY AFTER EACH SWAP TO SEE THE PROGRESS OF THE REVERSAL
 
 
 

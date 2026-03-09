@@ -16,3 +16,5 @@ for num in arr2:
 print(total)
 
 
+
+
