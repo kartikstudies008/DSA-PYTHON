@@ -1,4 +1,4 @@
-#LINEAR SEARCH
+#LINEAR SEARCH 
 arr = [4,8,1,6]
 target = 1
 found = False

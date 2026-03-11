@@ -6,7 +6,7 @@ left = 0
 right = len(arr)-1
 
 while left < right:
-    arr[left],arr[right]=arr[right],arr[left]
+    arr[left],arr[right]=arr[right],arr[left]   #SWAP THE ELEMENTS AT THE LEFT AND RIGHT INDICES
     left+=1
     right-=1
 print(arr)
