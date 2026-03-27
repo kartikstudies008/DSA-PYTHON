@@ -1,18 +1,18 @@
 # FIND MAX NO. IN ARRAY 
 arr = [4,8,1,6]
 
-maximum = arr[0]
+maximum = arr[0]   #INITIALIZE THE MAXIMUM VARIABLE TO THE FIRST ELEMENT OF THE ARRAY
 
-for num in arr:
-    if  num > maximum:
+for num in arr:    #ITERATE THROUGH THE ARRAY AND CHECK IF THE CURRENT NUMBER IS GREATER THAN THE MAXIMUM
+    if  num > maximum:   #IF THE CURRENT NUMBER IS GREATER, UPDATE THE MAXIMUM TO THE CURRENT NUMBER
         maximum = num 
 print(maximum)
 
 # QUES 2 
 arr2 = [3, 5, 9, 2]
-maximum1 = arr2[0]
+maximum1 = arr2[0]   #INITIALIZE THE MAXIMUM VARIABLE TO THE FIRST ELEMENT OF THE ARRAY
 
-for num in arr2:
-    if num > maximum1:
+for num in arr2:    #ITERATE THROUGH THE ARRAY AND CHECK IF THE CURRENT NUMBER IS GREATER THAN THE MAXIMUM
+    if num > maximum1:   #IF THE CURRENT NUMBER IS GREATER, UPDATE THE MAXIMUM TO THE CURRENT NUMBER
         maximum1 = num 
 print(maximum1)

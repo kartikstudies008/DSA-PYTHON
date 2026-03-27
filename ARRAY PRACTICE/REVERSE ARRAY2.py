@@ -1,11 +1,12 @@
+#REVERSE ARRAY USING TWO-POINTER METHOD - SWAP FIRST AND LAST ELEMENTS, THEN MOVE BOTH POINTERS INWARD UNTIL THEY MEET IN THE MIDDLE
 arr = [12,13,14,15,16]
-left = 0
-right = len(arr)-1
-while left<right:
-    arr[left],arr[right]=arr[right],arr[left]
-    left+=1
-    right-=1
+left = 0               #LEFT POINTER STARTS AT THE BEGINNING OF THE ARRAY
+right = len(arr)-1     #RIGHT POINTER STARTS AT THE END OF THE ARRAY
+while left<right:      #CONTINUE SWAPPING UNTIL THE TWO POINTERS MEET
+    arr[left],arr[right]=arr[right],arr[left]   #SWAP THE ELEMENTS AT THE LEFT AND RIGHT INDICES
+    left+=1    #MOVE THE LEFT POINTER TO THE RIGHT
+    right-=1   #MOVE THE RIGHT POINTER TO THE LEFT
 
-    print(arr)
+    print(arr)   #PRINT THE ARRAY AFTER EACH SWAP TO SEE THE PROGRESS OF THE REVERSAL
 
     
