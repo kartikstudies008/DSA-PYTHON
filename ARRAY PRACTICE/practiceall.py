@@ -4,7 +4,7 @@ print(arr)
 
 # EACH ELEMENT HAS ITS INDEX 
 
-print(arr[1])
+print(arr[1])   #arr 1
 print(arr[-2])
 
 #SWAP FIRST AND LAST ARRAY 
