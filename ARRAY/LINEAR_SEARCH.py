@@ -1,5 +1,5 @@
 #LINEAR SEARCH 
-arr = [4,8,1,6] #ARR CREATED !  ADDED
+arr = [4,8,1,6] #ARR CREATED !  ADDED Q
 target = 1
 found = False
 
