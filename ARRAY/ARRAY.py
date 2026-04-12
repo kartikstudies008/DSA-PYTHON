@@ -1,5 +1,5 @@
 #PRINTING ARRAY 
-arr = [10,20,30,40]
+arr = [10,20,30,40]   #ARR
 print(arr)
 
 #INDEXING 
