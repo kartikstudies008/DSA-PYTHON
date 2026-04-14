@@ -1,6 +1,6 @@
 #PRINTING ARRAY 
 arr = [10,20,30,40]   #ARR ---1
-print(arr)
+print(arr)    #arr 4 
 
 #INDEXING 
 print(arr[0])
