@@ -1,4 +1,5 @@
-arr = [12,13,14,15,16] #arr --1
+arr = [12,13,14,15,16] #arr --122
+
 left = 0
 right = len(arr)-1
 while left<right:
