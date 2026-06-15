@@ -1,4 +1,4 @@
-# FIND MAX NO. IN ARRAY fff11g
+# FIND MAX NO. IN ARRAY fff11gr
 arr = [4,8,1,6]
 
 maximum = arr[0]
