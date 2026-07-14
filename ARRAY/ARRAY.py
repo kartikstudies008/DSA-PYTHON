@@ -1,5 +1,5 @@
 #PRINTING ARRAY 
-arr = [10,20,30,40]   #ARR ---1---454
+arr = [10,20,30,40]   #ARR ---1---454y
 print(arr)    #arr 4 44
 
 #INDEXING 
