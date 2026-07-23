@@ -1,7 +1,7 @@
 arr = [12,13,14,15,16] #arr --1221118ddTGM6JU55GNE854rtstjgttn5hytjkli
 ukry
 left = 0
-right = len(arr)-1
+right = len(arr)-1l
 while left<right:
     arr[left],arr[right]=arr[right],arr[left]
     left+=1
