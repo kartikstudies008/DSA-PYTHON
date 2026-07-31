@@ -1,4 +1,4 @@
-arr = [12,13,14,15,16] #arr --1221118ddTGM6JU55GNE854rtstjgttn5hytjkligyihi
+arr = [12,13,14,15,16] #arr --1221118ddTGM6JU55GNE854rtstjgttn5hytjkligyihiu
 ukry
 left = 0
 right = len(arr)-1l
