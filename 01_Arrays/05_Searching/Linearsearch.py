@@ -8,7 +8,7 @@
 #
 # 🧠 DSA CONCEPT / PATTERN:
 #    - Sequential Search: Checks every element from start to finish. Works on unsorted arrays.
-#
+#.
 # 💡 APPROACH:
 #    1. Read array elements and target search value from input.
 #    2. Set found = False.
